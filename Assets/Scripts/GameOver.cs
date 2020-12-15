@@ -10,7 +10,7 @@ public class GameOver : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    void OnGUI()
+    /*void OnGUI()
     {
         const int buttonWidth = 120;
         const int buttonHeight = 60;
@@ -31,5 +31,5 @@ public class GameOver : MonoBehaviour
             // Reload the level
             SceneManager.LoadScene("Level 1");
         }
-    }
+    }*/
 }
