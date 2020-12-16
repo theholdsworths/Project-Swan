@@ -10,8 +10,8 @@ public class PipeGeneration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateObstacles", 1f, 1.5f);
-        //InvokeRepeating("CreateObstacles", Random.Range(1f, 2f), Random.Range(1.5f, 2.5f));
+        //InvokeRepeating("CreateObstacles", 1f, 1.5f);
+        InvokeRepeating("CreateObstacles", Random.Range(1f, 2f), Random.Range(1.5f, 2.5f));
     }
 
     private void OnGUI()
